@@ -127,4 +127,5 @@ dist
 .pnp.*
 
 # avoid
+package.json
 *_solution.js
