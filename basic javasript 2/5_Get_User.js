@@ -1,28 +1,23 @@
+const { rejects } = require("assert");
 const https = require("https");
 
 /**
- * 
- * ໃຫ້ສ້າງ function ສຳລັບດຶງເອົາຂໍ້ມູນຜູ້ໃຊ້ຈາກ API: 
+ *
+ * ໃຫ້ສ້າງ function ສຳລັບດຶງເອົາຂໍ້ມູນຜູ້ໃຊ້ຈາກ API:
  * endpoint:  "https://jsonplaceholder.typicode.com/users"
  * ແລ້ວ ນຳໃຊ້ໃນ execute() ໃ້ຫ້ໄດ້ຜົນລັບດັ່່ງໃນ comment.
  */
 let getUser = () => {
   /**
    * coding
-   * 
-   * 
+   *
+   *
    */
 };
 
 let excute = async () => {
   try {
-    let users = await getUser()
-    /**
-     * coding
-     * 
-     * 
-     * 
-     */
+    let users = await getUser();
     console.log("Data Response: ", users);
   } catch (err) {
     console.log("Error Message: ", err);
@@ -30,7 +25,6 @@ let excute = async () => {
 };
 
 excute();
-
 
 /**
  * ==================================== Display ========================================

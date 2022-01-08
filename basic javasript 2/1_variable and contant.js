@@ -8,5 +8,5 @@
  * - n < 3
  */
 
-let number = 56
+let digit = 56;
 // coding
