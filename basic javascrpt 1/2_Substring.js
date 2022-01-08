@@ -12,3 +12,7 @@ let x = "Hello World"
   */
 
 // coding
+
+let result = x.substring(0, 9);
+
+console.log(result)
